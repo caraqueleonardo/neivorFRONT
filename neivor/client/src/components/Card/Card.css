@@ -1,0 +1,57 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 380px;
+    border: 1px solid rgb(168, 51, 51);
+    overflow: hidden;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: radial-gradient(circle at 114.09% 20.12%, #8d1f1f 0, #b81919 50%, #c965657a 100%);
+  }
+  
+.image {
+    height: 60%;
+  }
+
+  .image img {
+    height: 80%;
+    width: 100%;
+    border-radius: 7px;
+  }
+
+.detail h3 {
+  margin-top: 2px;
+  color: whitesmoke;
+}
+
+
+.detail button {
+  border-radius: 7px;
+    text-decoration: none;
+    font-family: Poppins;
+    background: rgba(0,0,0,0);
+    color: whitesmoke;
+    margin-top: 10px;
+    border: 2px solid;
+    padding: 7px 13px;
+    margin-bottom: 3px;
+  }
+  
+  .detail button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 7px #fff;
+    text-shadow: 0 0 5px #fff;
+}
+
+.detail {
+  color: rgba(228, 214, 25, 0.788);
+}
+
+.card:hover,
+.card:active {
+  box-shadow: 0 0px 40px rgba(223, 16, 16, 0.863);
+  transform: translateY(-3px) scale(1.10) rotateX(15deg);
+}
+
